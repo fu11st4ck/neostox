@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In - Neostox</title>
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/main.css">
+    <script src="/js/jquery-3.6.0.min.js"></script>
+    <script src="https://kit.fontawesome.com/ba771bb128.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <form action="#">
+        <!-- top navigation start here -->
+        <div class="container-fluid">
+            <div class="fixed-top navbar_div">
+                <nav class="navbar navbar-expand-lg navbar-nav-bg">
+                    <div class="container">
+                        <a href="#" class="text-decoration-none">
+                            <img src="/images/neostox-logo-3.png" alt="neostox logo" class="navbar-brand">
+                        </a>
+                        <button class="navbar-toggler col text-end" type="button" data-bs-toggle="modal" data-bs-target="#mobileMenuModal">
+                            <img src="/images/bars.png" height="35">
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Pricing</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Features</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">How it works</a>
+                                </li>
+                            </ul>
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Sign In</a>
+                                </li>
+                                <li class="ps-0">
+                                    <a href="#" class="btn btn-success button_success">Sign Up</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- top navigation start here -->
+
+        <!-- mobile navigation start here -->
+        <div class="modal fade menupopupmobile" id="mobileMenuModal" tabindex="-1" aria-labelledby="mobileMenuModalLabel" aria-hidden="true" role="dialog">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Menu</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <ul class="modalmenuli">
+                            <li><a href="/" class="nodecor normaltext">Home</a></li>
+                            <li><a href="/" class="nodecor normaltext">About</a></li>
+                            <li><a href="/" class="nodecor normaltext">Videos</a></li>
+                            <li><a href="/" class="nodecor normaltext">Features</a></li>
+                            <li><a href="/" class="nodecor normaltext">Pricing</a></li>
+                            <li><a href="/" class="nodecor normaltext">How it works</a></li>
+                            <li><a href="/" class="nodecor normaltext">FAQ</a></li>
+                            <li><a href="/" class="nodecor normaltext">Refer & Earn</a></li>
+                            <li><a href="/" class="nodecor normaltext">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="/sign-in" class="btn btn-success button_success">Sign In</a>
+                        <a href="/sign-up" class="btn btn-success button_success">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- mobile navigation end here -->
+
+        <!-- main content & footer start here -->
+        <div class="content_main_container">
+            <section class="lightgreenbg">
+                <div class="container">
+                    <div class="row d-flex justify-content-center">
+                        <h2 class="live_stock_heading">Live Stocks trading with <span class="Primary_color2 green_heading">Virtual Money</span></h2>
+                        <p class="text-center fs-5">Trade in &gt; Equities | Options | Futures</p>
+                    </div>
+                    <div class="row trading-platform mt-2">
+                        <div class="col-lg-6 m-auto border rounded-2 shadow-sm p-3 login_container">
+                            <div class="pb-2">
+                                <h4 class="greencolorup">Sign In</h4>
+                            </div>
+
+                            <span class="d-block text-center text-sm-start">Enter Mobile Number
+                                <span data-val-controltovalidate="MainContent_signinsignup_txt_mobilenumber" data-val-errormessage="Required" data-val-validationgroup="valg_signup1" id="MainContent_signinsignup_reqfld1" class="errmsg" data-val="true" data-val-evaluationfunction="RequiredFieldValidatorEvaluateIsValid" data-val-initialvalue="" style="visibility:hidden;">Required</span>
+                            </span>
+
+                            <div class="d-flex align-items-center mobilepad0 mobile-d-flex">
+                                <div class="d-block mt-2">
+                                    <div class="input-group flex-nowrap">
+                                        <span class="input-group-text">+91</span>
+                                        <input type="number" name="" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="ms-3 mt-2">
+                                    <a class="btn btn-signup" href="#">Sign In</a>
+                                </div>
+                            </div>
+
+                            <div class="d-block pt-5 centerinmobile">
+                                <a href="#" class="googlebutton">
+                                    <img src="/images/googleshortlogo.png" height="25" class="d-inline-block me-2">
+                                    Sign In or Up with Google
+                                </a>
+                            </div>
+
+                            <div class="pt-4">
+                                Don't have an account? <a href="/sign-up" class="neolink fw-bold font-16">Click Here</a> to register free.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 m-auto py-2 border px-2 text-center bottom_button mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"></path>
+                            </svg>
+                            <a href="#" class="link-nodecor">Sign in using email address and password</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="footermaindiv container-fluid border-top">
+                <div class="container">
+                    <div class="row py-5">
+                        <div class="col-md-12 col-12 col-lg-4 col-sm-12">
+                            <img src="/images/neostox_footer_logo.png">
+                            <p class="footerlogotxt mt-4 pe-5">India’s first 100% real-time trading platform with virtual money to experience live trading in NSE.</p>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-lg-2 col-6">
+                            <p class="footermenuheader">Company</p>
+                            <ul class="footerulli">
+                                <li><a href="/about-us">About Us</a></li>
+                                <li><a href="/contact-us">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-lg-2 col-6">
+                            <p class="footermenuheader">Product</p>
+                            <ul class="footerulli">
+                                <li><a href="#">Sign In</a></li>
+                                <li><a href="#">Sign Up</a></li>
+                                <li><a href="#">Pricing</a></li>
+                                <li><a href="#">Features</a></li>
+                                <li><a href="#">Videos</a></li>
+                                <li><a href="#">How it Works</a></li>
+                                <li><a href="#" class="nodecor normaltext" id="lnk_referandearn">Refer &amp; Earn</a></li>
+                                <li><a href="#">FAQ</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 col-sm-4 col-lg-2 col-6">
+                            <p class="footermenuheader">Legal</p>
+                            <ul class="footerulli">
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Terms &amp; Condition</a></li>
+                                <li><a href="#">Payments, Refunds &amp; Cancellations</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-lg-2 col-6">
+                            <p class="footermenuheader">Contact Us</p>
+                            <ul class="footerulli1">
+                                <li>
+                                    <i class="fa fa-envelope"></i>&nbsp;<a href="mailto:support@neostox.com" class="text-decoration-none greencolorup">support@neostox.com</a>
+                                </li>
+                                <li>
+                                    <i class="fa fa-phone"></i>&nbsp;<a href="tel:+917428265641" class="text-decoration-none greencolorup">+91 7428265641</a>
+                                </li>
+                                <li>
+                                    <i class="fa fa-telegram"></i>&nbsp;<a href="https://t.me/+zHBVRctb75JkMDNl" target="_blank" class="text-decoration-none greencolorup">Join Our Telegram Channel</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="row pb-4">
+                        <div class="col-md-8">
+                            <p class="foottxt">
+                                © Copyright <strong>Neostox</strong>. All Rights Reserved. Made with
+                                <img src="/images/green_heart.png">
+                                in India.
+
+                            </p>
+                        </div>
+                        <div class="col-md-4 sicon text-end">
+                            <ul class="social_icons">
+                                <li>
+                                    <a href="https://twitter.com/neostox" target="_blank" class="nodecor">
+                                        <i class="fab fa-twitter-square"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.facebook.com/NeoStox" target="_blank" class="nodecor">
+                                        <i class="fab fa-facebook-square"></i>
+                                    </a>
+                                </li>
+                                <li><a href="https://www.instagram.com/neostoxcom/" target="_blank" class="nodecor">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li><a href="https://www.linkedin.com/company/neostox" target="_blank" class="nodecor">
+                                        <i class="fab fa-linkedin"></i>
+                                    </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- main content & footer start here -->
+    </form>
+</body>
+
+</html>
